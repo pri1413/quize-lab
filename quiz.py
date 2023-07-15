@@ -10,8 +10,8 @@ while(ch != 3):
 	if ch == 1:
 		print("Attempt Quiz Now")
 		for q in qlist:
-			rans=0;
-			wans=0;
+			rans=0
+			wans=0
 			print(q['qt'])
 			print(q['A'])
 			print(q['B'])
@@ -19,9 +19,9 @@ while(ch != 3):
 			print(q['D'])
 			ans= input("Answer")
 			if q['CAns']==ans:
-				rans=rans+1;
+				rans=rans+1
 			else:
-				wans=wans+1;
+				wans=wans+1
 			if ans != q:
 				print("Choose correct option")
 			print("your right answer" ,+rans)
