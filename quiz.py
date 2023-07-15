@@ -22,6 +22,8 @@ while(ch != 3):
 				rans=rans+1;
 			else:
 				wans=wans+1;
+			if ans != q:
+				print("Choose correct option")
 			print("your right answer" ,+rans)
 			print("your wrong answer" ,+wans)
 
